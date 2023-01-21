@@ -9,10 +9,11 @@ is converted to "displayAllBooks" """
     return upper_camel_cased[0:1].lower() + upper_camel_cased[1:]
 
 def instructions():
+    """Display instructions for how to use the program"""
     print('Enter a senstence and this program will convert it to camelcase.')
 
 def banner():
-    """ Display program name """
+    """ Display program name, using stars  """
     message = 'Awesome camelcase program!!'
     stars = '*' * len(message)
     print(f'\n{stars} \n{message} \n{stars}\n') 
